@@ -1,0 +1,30 @@
+.wrapper {
+	width: 350px;
+	background-color: var(--white);
+	position: relative;
+	border-radius: 8px;
+	padding: 50px 20px 16px;
+}
+
+.imageContainer {
+	width: 70px;
+	height: 70px;
+	background-color: var(--primary-violet);
+	border-radius: 50%;
+	position: absolute;
+	top: -30px;
+	left: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	color: var(--dark-violet);
+	padding-bottom: 10px;
+}
+
+.desc {
+	color: var(--gray);
+	font-size: 0.8rem;
+}

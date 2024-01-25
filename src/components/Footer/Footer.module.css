@@ -1,0 +1,53 @@
+.wrapper {
+	background-color: var(--dark-violet);
+	color: var(--white);
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 70px 50px;
+}
+
+.logo {
+	padding-right: 75px;
+}
+
+.linksTitle {
+	font-size: 0.8rem;
+	font-weight: 700;
+}
+
+.link {
+	color: var(--gray);
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 0.8rem;
+
+	&:hover,
+	&:focus {
+		color: var(--primary-cyan);
+	}
+}
+
+.container {
+	display: flex;
+	gap: 45px;
+}
+
+.linkContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.socials {
+	display: flex;
+	gap: 12px;
+}
+
+.socialLink {
+	width: 16px;
+
+	&:hover,
+	&:focus {
+		color: var(--primary-cyan);
+	}
+}

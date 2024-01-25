@@ -1,0 +1,37 @@
+.wrapper {
+	position: relative;
+	padding: 115px 70px 175px 70px;
+}
+
+.title {
+	font-size: 64px;
+	line-height: 1.2;
+	letter-spacing: -1px;
+	color: var(--dark-violet);
+}
+
+.subtitle {
+	color: var(--gray);
+	padding-bottom: 30px;
+}
+
+.heroBtn {
+	border: none;
+	background-color: var(--primary-cyan);
+	color: var(--white);
+	padding: 8px 28px;
+	border-radius: 9999px;
+	cursor: pointer;
+
+	&:hover,
+	&:focus {
+		opacity: 0.6;
+	}
+}
+
+.heroImg {
+	width: 650px;
+	position: absolute;
+	top: 50px;
+	right: -190px;
+}

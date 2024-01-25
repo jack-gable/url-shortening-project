@@ -1,0 +1,44 @@
+.wrapper {
+	background-color: var(--gray-bg);
+	padding: 0 70px;
+	position: relative;
+}
+
+.container {
+	padding-top: 170px;
+	text-align: center;
+	width: 350px;
+	margin-inline: auto;
+}
+
+.heading {
+	font-size: 1.8rem;
+	padding-bottom: 10px;
+}
+
+.flexContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 60px;
+}
+
+.desc {
+	color: var(--gray);
+	padding-bottom: 30px;
+	font-size: 0.8rem;
+}
+
+.bar {
+	background-color: var(--primary-cyan);
+	width: 16px;
+	height: 4px;
+}
+
+.card1 {
+	margin-top: 65px;
+}
+
+.card2 {
+	margin-top: 125px;
+}

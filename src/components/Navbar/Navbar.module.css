@@ -1,0 +1,62 @@
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.navList {
+	display: flex;
+	list-style-type: none;
+	gap: 25px;
+}
+
+.navBtn {
+	color: var(--gray);
+	font-weight: 700;
+	font-size: 0.9rem;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: var(--dark-violet);
+	}
+}
+
+.btnContainer {
+	display: flex;
+	gap: 30px;
+}
+
+.loginBtn {
+	color: var(--gray);
+	font-size: 0.9rem;
+	font-weight: 700;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+
+	&:hover,
+	&:focus {
+		color: var(--dark-violet);
+	}
+}
+
+.signupBtn {
+	color: var(--white);
+	font-size: 0.9rem;
+	font-weight: 700;
+	border: none;
+	background-color: var(--primary-cyan);
+	border-radius: 9999px;
+	padding: 6px 16px;
+	cursor: pointer;
+
+	&:hover,
+	&:focus {
+		opacity: 0.6;
+	}
+}

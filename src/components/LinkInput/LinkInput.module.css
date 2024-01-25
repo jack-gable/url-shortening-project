@@ -1,0 +1,56 @@
+.wrapper {
+	padding: 40px;
+	width: max-content;
+	background-image: url("../../assets/images/bg-shorten-desktop.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: var(--primary-violet);
+	position: absolute;
+	top: -60px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 10px;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+}
+
+.input {
+	width: 484px;
+	padding: 0 20px;
+	font-size: 0.8rem;
+	color: var(--gray);
+	border: none;
+	border-radius: 6px;
+}
+
+.submitBtn {
+	font-size: 0.8rem;
+	background-color: var(--primary-cyan);
+	color: var(--white);
+	text-transform: capitalize;
+	font-weight: 700;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+
+	&:focus,
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+.container {
+	position: relative;
+}
+
+.errorMessage {
+	color: var(--red);
+	font-size: 0.7rem;
+	position: absolute;
+	bottom: 20px;
+}
