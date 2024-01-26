@@ -1,0 +1,32 @@
+.wrapper {
+	background-color: var(--white);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 6px 16px;
+	border-radius: 6px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.inputLink {
+	color: var(--dark-violet);
+}
+
+.resultLink {
+	color: var(--primary-cyan);
+}
+
+.copyBtn {
+	border: none;
+	background-color: var(--primary-cyan);
+	color: var(--white);
+	border-radius: 4px;
+	font-size: 0.8rem;
+	font-weight: 700;
+	padding: 4px 16px;
+}
